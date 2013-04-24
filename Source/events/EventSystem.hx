@@ -129,7 +129,11 @@ class EventSystem {
     public function fire( event_name : String, properties : Dynamic = null ) : Bool {
 
         if(event_slots.exists( event_name )){
-                
+               
+            if(properties == null) {
+            	properties = {};
+            }
+
                 //tag these information slots, with _ so they don't clobber other stuff
             if(!Reflect.field(properties,'_event_name')) {
                 Reflect.setField(properties,'_event_name', event_name);
