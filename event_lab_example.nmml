@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+  <app title="Event System example" file="event_lab_example" main="Game" package="com.underscorediscovery.event_lab" version="1.0.0" company="underscorediscovery" />
+  
+  <set name="fullscreen" if="target_ios" />
+  <set name="fullscreen" if="target_android" />
+  
+  <ios deployment="4.3" binaries="armv6" devices="universal" />  
+
+  <window width="960" height="640"  background="#161616" fps="60" orientation="portrait" resizable="true" />
+ 
+  <set name="BUILD_DIR" value="bin" />
+
+  <classpath name="Source" />
+
+  <haxelib name="nme" />
+  <haxelib name="svg" />
+  <haxelib name="HxJson2" />
+  <haxelib name="spritesheet" />
+
+  <assets path="Assets" rename="assets" include="*"  />
+
+  <ndll name="std" />
+  <ndll name="regexp" />
+  <ndll name="zlib" />
+  <ndll name="nme" haxelib="nme" />
+
+</project>
