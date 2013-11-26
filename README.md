@@ -1,7 +1,7 @@
 Simple event system
 ==========
 
-A simple event (signal/slot) system for [NME](http://nme.io/)
+A simple event (signal/slot) system for [Haxe](http://haxe.org/)
 
 Simple Usage, connect listeners to an event : 
 	
