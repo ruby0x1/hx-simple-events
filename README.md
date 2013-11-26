@@ -1,4 +1,4 @@
-Simple event system (NME)
+Simple event system
 ==========
 
 A simple event (signal/slot) system for [NME](http://nme.io/)
@@ -22,9 +22,3 @@ Simple Usage, connect listeners to an event :
 			//this can be used as an overall message queue but explicit control
 			
 		
-		
-		
-
-[http://underscorediscovery.com](http://underscorediscovery.com)
-
-[http://github.com/FuzzYspo0N](http://github.com/FuzzYspo0N)
